@@ -22,7 +22,7 @@ script:
   - cd math-aria
   - rm -rf common
   - cp -R ../../w3c/math-aria/common .
-  - curl https://labs.w3.org/spec-generator/?type=respec"&"url=https://raw.githack.com/w3c/math-aria/main/index.html -o index.html -f  --retry 3
+  - curl https://www.w3.org/publications/spec-generator/?type=respec"&"url=https://raw.githack.com/w3c/math-aria/main/index.html -o index.html -f  --retry 3
 
 after_success:
   - git add -A .
